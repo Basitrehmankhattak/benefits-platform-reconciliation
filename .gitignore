@@ -1,0 +1,15 @@
+# Secrets: passwords and keys (never on GitHub!)
+.env
+
+# Generated data: we can recreate it anytime with the generator
+data/*
+!data/.gitkeep
+# Python junk
+__pycache__/
+venv/
+.venv/
+
+# dbt build output
+target/
+dbt_packages/
+logs/
